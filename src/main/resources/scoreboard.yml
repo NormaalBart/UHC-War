@@ -1,0 +1,126 @@
+# Board declares a new Scoreboard instance
+aliveBoard:
+  # Every board contains 'Lines', they are kept in order by the line identifier
+  # Every line must have an unique identifier, or strange things will happen.
+  # The line identifiers declare the weight of the line, the lower the identifier
+  # the higher they will appear in the Scoreboard. The line with weight '1' will be the
+  # scoreboard title.
+  '1':
+    # Every line contains 'animatables', this is specified by the field 'content'.
+    # Animatables will change the line every few ticks (specified by the 'update field')
+    # this way you can animate each line just the way you wan't it to.
+    content:
+      - '&4> &cUHC&7-&cWar &4<'
+      - '&4> &cU &4<'
+      - '&4> &cUH &4<'
+      - '&4> &cUHC &4<'
+      - '&4> &cUHC&7- &4<'
+      - '&4> &cUHC&7-&cW &4<'
+      - '&4> &cUHC&7-&cWa &4<'
+      - '&4> &cUHC&7-&cWar &4<'
+      - '&c> &4UHC&7-&4War &c<'
+      - '&4> &cUHC&7-&cWar &4<'
+      - '&c> &4UHC&7-&4War &c<'
+      - '&4> &cUHC&7-&cWar &4<'
+      - '&c> &4UHC&7-&4War &c<'
+    # 1 second equals 20 ticks
+    update: 5
+  '2':
+    content:
+      - '                '
+    update: 1000
+  '3':
+    content:
+      - '&7Team:'
+    update: 1000
+  '4':
+    content:
+      - ' %player_team% &7(&f%player_team_size% players&7)'
+    update: 5
+  '5':
+    content:
+      - ''
+    update: 1000
+  '6':
+    content:
+      - '&7Enemy:'
+    update: 1000
+  '7':
+    content:
+      - ' %player_enemy% &7(&f%player_enemy_size% players&7)'
+    update: 5
+  '8':
+    content:
+      - ''
+    update: 1000
+  '9':
+    content:
+      - '&7Spectator:'
+    update: 1000
+  '10':
+    content:
+      - ' %team_spectator_size%'
+    update: 5
+
+deathBoard:
+  # Every board contains 'Lines', they are kept in order by the line identifier
+  # Every line must have an unique identifier, or strange things will happen.
+  # The line identifiers declare the weight of the line, the lower the identifier
+  # the higher they will appear in the Scoreboard. The line with weight '1' will be the
+  # scoreboard title.
+  '1':
+    # Every line contains 'animatables', this is specified by the field 'content'.
+    # Animatables will change the line every few ticks (specified by the 'update field')
+    # this way you can animate each line just the way you wan't it to.
+    content:
+      - '&4> &cUHC&7-&cWar &4<'
+      - '&4> &cU &4<'
+      - '&4> &cUH &4<'
+      - '&4> &cUHC &4<'
+      - '&4> &cUHC&7- &4<'
+      - '&4> &cUHC&7-&cW &4<'
+      - '&4> &cUHC&7-&cWa &4<'
+      - '&4> &cUHC&7-&cWar &4<'
+      - '&c> &4UHC&7-&4War &c<'
+      - '&4> &cUHC&7-&cWar &4<'
+      - '&c> &4UHC&7-&4War &c<'
+      - '&4> &cUHC&7-&cWar &4<'
+      - '&c> &4UHC&7-&4War &c<'
+    # 1 second equals 20 ticks
+    update: 3
+  '2':
+    content:
+      - '                '
+    update: 1000
+  '3':
+    content:
+      - '&7Red:'
+    update: 1000
+  '4':
+    content:
+      - ' %team_red_size%'
+    update: 5
+  '5':
+    content:
+      - ''
+    update: 1000
+  '6':
+    content:
+      - '&7Blue:'
+    update: 1000
+  '7':
+    content:
+      - ' %team_blue_size%'
+    update: 5
+  '8':
+    content:
+      - ''
+    update: 1000
+  '9':
+    content:
+      - '&7Spectator:'
+    update: 1000
+  '10':
+    content:
+      - ' %team_spectator_size%'
+    update: 5

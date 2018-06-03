@@ -1,0 +1,59 @@
+#  ______                  _______    _     
+# |  ____|                |__   __|  | |    
+# | |__ __ _ _ __   ___ _   _| | __ _| |__  
+# |  __/ _` | '_ \ / __| | | | |/ _` | '_ \ 
+# | | | (_| | | | | (__| |_| | | (_| | |_) |
+# |_|  \__,_|_| |_|\___|\__, |_|\__,_|_.__/ 
+#                       __/ |              
+#                      |___/     
+#  
+# FancyTab Version 2.2 by Codebucket
+# http://www.codebucket.de/plugins/fancytab/
+# ------------------------------------------------------------------------
+#  
+# Each new tabslot is marked with a "-"
+#  
+# You can use those variables in your tablist:
+#  
+# %username% - Displays the name of the player
+# %displayname% - Displays the displayname of the player
+# %numplayers% - Displays the amount of online players
+# %maxplayers% - Displays the maximum amount of players
+# %ip-adress% - Displays the IP adress of the player
+# %ping% - Displays the ping of the player
+# %day% - Displays the system date day
+# %month% - Displays the system date month
+# %year% - Displays the system date year
+# %hours% - Displays the system time hour
+# %minutes% - Displays the system time minute
+# %seconds% - Displays the system time second
+# %version% - Displays the version of FancyTab
+# %bukkitversion% - Displays the version of Bukkit (Minecraft)
+# %serverversion% - Displays the version of Minecraft Server
+# %servername% - Displays the name of the server
+# %serverip% - Displays the IP adress of the server
+# %motd% - Displays the Message of the day (MOTD)
+#  
+# You can also use special slots in your tablist:
+# http://dev.bukkit.org/bukkit-plugins/fancytab/pages/special-slots/
+#  
+# ColorCodes are supported with '&' + Code.
+# You can use now special characters in your tablist. (Experimental!)
+#  
+# -------------------------------------------------------------------------
+#  
+# IMPORTANT: If the length of a slot is bigger then 16 characters, 
+# then will be the text of the slot reduced to 16 characters!
+#  
+# -------------------------------------------------------------------------
+
+autoRefresh: false
+refreshInterval: 5
+
+Slots:
+- '     &b%sl1'
+- '&3%servername%'
+- '  &b%sl2'
+- '&9&l[]=========='
+- '&9&l============'
+- '&9&l==========[]'

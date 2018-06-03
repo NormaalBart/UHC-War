@@ -1,0 +1,62 @@
+Not-Supported: "&7Command is not supported yet"
+Only-Player: "&7Command only supported for players"
+Already-In-Team: "&aYou are already in a team!"
+Teams-Sorted: "&7{0} players are randomly putted in a team"
+noPermission: "&cNo permission"
+spawn-location-set: "&7Login location set"
+spawn-set: "&7Spawn set for team {0} at current location"
+deathMessage: "&7{0} killed {1}!"
+playerNotFound: "&7Player not found"
+kickmessage: "&cGame is restarting!"
+join-Message: "&8[&4&lUHC-War&8]&7{0} &fjoined the game &8(&4{1}&8/&420&8)"
+leave-Message: "&8[&4&lUHC-War&8]&7{0} &fleft the game &8(&4{1}&8/&420&8)"
+list:
+  notEnoughArgs: "&7Usage: /{0} (red/blue)"
+createkits:
+  notEnoughArgs: "&7Usage: /{0} (kitname)"
+  kitCreated: "&aKit created with name {0}"
+kit:
+  notEnoughArgs: "&7Usage: /{0} (kitName) <player>"
+  kitNotFound: "&7Kit not found!"
+  kitGive: "&7Gave give {0} to {1}"
+teams:
+  notEnoughArgs: "&7Usage: /{0} (list/join/info/setspawn/leave/reload) (red/blue)" 
+  notFound: "&7{0} is not a team!"
+  already-joined: "&7You are already in that team!"
+  joined: "&7You joined team {0}"
+  max-members: "&7Team limit reached"
+  cannot-switch: "&7Game already began!"
+  team-left: "&7You left the team!"
+  team-info:
+    - "&8=== &a{0} &8==="
+    - ""
+    - "&a - &7Members: {1}"
+    - "&a - &7MemberCount: {2}"
+    - ""
+    - "&8=== &a{0} &8==="
+game:
+  starting:
+    - "&8=== &cUHC-War &8==="
+    - ""
+    - "&7Game starting in &a{0} &7seconds"
+    - ""
+    - "&8=== &cUHC-War &8==="
+  started: 
+    - "&8=== &cUHC-War &8==="
+    - ""
+    - "&7Game started!"
+    - ""
+    - "&8=== &cUHC-War &8==="
+  finished:
+    won:
+    - "&8=== &cUHC-War &8==="
+    - ""
+    - "&7{0} &7won!"
+    - ""
+    - "&8=== &cUHC-War &8==="
+    draw:
+    - "&8=== &cUHC-War &8==="
+    - ""
+    - "&7Nobody won :("
+    - ""
+    - "&8=== &cUHC-War &8==="

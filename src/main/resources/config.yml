@@ -1,0 +1,20 @@
+maxTeamLimit: 10
+debug: true
+#Players to start the game?
+minPlayers: 20
+# Seconds of countdown before game start
+countdownFrom: 10
+# If you use bungeecord, to what server do the people connect when the server restarts?
+# set 'none' when you don't use bungeecord
+fallBack-server: none
+# Time after people get connected to the fallback-server / the server closes
+time: 10
+teamName:
+  #Scoreboard name
+  red: "&cRed"
+  blue: "&6Blue"
+  spectator: "&7Spectator"
+  # Colour in tab & above head
+  redPrefix: "&c"
+  bluePrefix: "&6"
+  spectatorPrefix: "&7"

@@ -1,0 +1,14 @@
+name: UHC-War
+version: 1.0.0
+author: Bart
+main: me.bartvv.uhcwar.UHCWar
+commands:
+  autoteam:
+  team:
+    aliases: [teams]
+  list:
+  kit:
+  createkit:
+  setspawn:
+  
+  
